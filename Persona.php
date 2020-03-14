@@ -11,8 +11,9 @@ class Persona{
     }
 
     //metodos
-    public function saludar(){
-        echo "Hola como estas";
+    public function saludar($nombre){
+        echo("<br>");
+        echo "Hola como estas".$nombre;
     
     }   
 }

@@ -7,9 +7,17 @@ include('Persona.php');
 
 $meganfox = new Persona();
 echo($meganfox->nombre);
-$meganfox->nombre="megan";
+$meganfox->nombre="Megan";
 echo("<br>");
 echo($meganfox->nombre);
+
+$nombre = array("juan","ana");
+echo("<br>");
+echo $nombre[0];
+
+echo("<br>");
+$meganfox->saludar ($nombre[0]);
+
 
 
 ?>
